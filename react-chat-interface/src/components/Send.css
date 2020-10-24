@@ -1,0 +1,58 @@
+.send-message {
+  height: 65px;
+  background: var(--blackHigh);
+  border-radius: 0px 0px 4px 0px;
+  padding: 8px 10px;
+}
+
+.textarea {
+  background: var(--primaryMoreDark);
+  border: 1px solid var(--whiteHigh);
+  box-sizing: border-box;
+  color: var(--whiteLow);
+  padding: 16px;
+}
+
+.textarea::placeholder {
+  color: var(--whiteMiddle);
+}
+
+.textarea:focus {
+  outline: 0;
+}
+
+.input-group .textarea {
+  border-radius: 4px 0 0 4px;
+  border-right-width: 0;
+  flex: 1;
+}
+
+.input-group-btn {
+  display: flex;
+}
+
+.input-group-btn .btn {
+  border-radius: 0px 2px 2px 0px;
+  width: 75px;
+}
+
+.btn {
+  background: var(--primaryBight);
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--primaryBrightHover);
+}
+
+.btn:active {
+  background-color: var(--primaryBrightActive);
+}
+
+.btn i {
+  font-size: 30px;
+}

@@ -1,0 +1,47 @@
+.header {
+  background: var(--blackHigh);
+  border-radius: 0 4px 0px 0px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.header-avatar {
+}
+
+.header-avatar img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.header-name {
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: var(--fontSizeMD);
+  color: var(--whiteLow);
+  flex: 1;
+}
+
+.btn-icon {
+  border-width: 0;
+  outline: 0;
+  color: var(--whiteHigh);
+  background: transparent;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+.btn-icon:focus,
+.btn-icon:hover {
+  color: var(--whiteLow);
+  background-color: var(--blackHigh);
+}
+
+.btn-icon:active {
+  color: var(--whiteHigh);
+  background-color: var(--blackMiddle);
+}
