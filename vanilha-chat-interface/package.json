@@ -1,0 +1,15 @@
+{
+  "name": "vanilha-chat-interface",
+  "version": "1.0.0",
+  "description": "vanilha chat interface",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "David Costa <davidcostadev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
