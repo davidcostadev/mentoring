@@ -175,7 +175,7 @@ body {
 
 .header {
   background: var(--blackHigh);
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0 4px 0px 0px;
   height: 80px;
   display: flex;
   align-items: center;
