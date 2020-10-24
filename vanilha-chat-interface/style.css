@@ -180,6 +180,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 26px;
+  padding-right: 26px;
 }
 
 .header-avatar {
@@ -196,6 +197,7 @@ body {
   font-weight: bold;
   font-size: var(--fontSizeMD);
   color: var(--whiteLow);
+  flex: 1;
 }
 
 .messages {
@@ -300,6 +302,7 @@ body {
   border-width: 0;
   color: white;
   cursor: pointer;
+  outline: 0;
 }
 
 .btn:hover,
@@ -313,4 +316,25 @@ body {
 
 .btn i {
   font-size: 30px;
+}
+
+.btn-icon {
+  border-width: 0;
+  outline: 0;
+  color: var(--whiteHigh);
+  background: transparent;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+.btn-icon:focus,
+.btn-icon:hover {
+  color: var(--whiteLow);
+  background-color: var(--blackHigh);
+}
+
+.btn-icon:active {
+  color: var(--whiteHigh);
+  background-color: var(--blackMiddle);
 }
