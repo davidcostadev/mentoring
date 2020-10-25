@@ -42,13 +42,13 @@ body {
   max-width: 1300px;
   height: 700px;
   display: flex;
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .side {
   background-color: var(--primaryLight);
   width: 300px;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   display: flex;
   flex-direction: column;
 }
@@ -56,7 +56,7 @@ body {
 .chat {
   background-color: var(--primaryDark);
   flex-grow: 1;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   display: flex;
   flex-direction: column;
 }
@@ -175,7 +175,7 @@ body {
 
 .header {
   background: var(--blackHigh);
-  border-radius: 0 4px 0px 0px;
+  border-radius: 0 4px 0 0;
   height: 80px;
   display: flex;
   align-items: center;
@@ -262,7 +262,7 @@ body {
 .send-message {
   height: 65px;
   background: var(--blackHigh);
-  border-radius: 0px 0px 4px 0px;
+  border-radius: 0 0 4px 0;
   padding: 8px 10px;
 }
 
@@ -293,7 +293,7 @@ body {
 }
 
 .input-group-btn .btn {
-  border-radius: 0px 2px 2px 0px;
+  border-radius: 0 2px 2px 0;
   width: 75px;
 }
 

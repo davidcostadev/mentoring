@@ -1,6 +1,6 @@
 .header {
   background: var(--blackHigh);
-  border-radius: 0 4px 0px 0px;
+  border-radius: 0 4px 0 0;
   height: 80px;
   display: flex;
   align-items: center;
