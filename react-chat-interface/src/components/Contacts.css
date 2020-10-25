@@ -1,0 +1,70 @@
+.contacts {
+  overflow-y: scroll;
+  flex: 1;
+}
+
+.contact {
+  display: flex;
+  padding: 12px 14px;
+}
+
+.contact + .contact {
+  border-top: 1px solid var(--whiteBorder);
+}
+
+.contact-avatar {
+  padding-right: 7px;
+  font-size: 0;
+}
+
+.contact-avatar img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.contact-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.contact-name {
+  font-weight: bold;
+  font-size: var(--fontSizeSM);
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.contact-message {
+  font-size: var(--fontSizeXS);
+  color: var(--whiteLow);
+}
+
+.contact-message-time {
+  padding-left: 7px;
+  font-size: var(--fontSizeXS);
+  text-align: right;
+  color: var(--whiteLow);
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-message-badge {
+  background-color: var(--primaryBight);
+  border-radius: 50%;
+  color: var(--whiteLow);
+  font-size: var(--fontSizeXS);
+  padding: 2px;
+  height: 20px;
+  width: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

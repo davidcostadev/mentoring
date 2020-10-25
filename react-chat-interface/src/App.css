@@ -1,0 +1,16 @@
+.root {
+  background-color: var(--primaryDeep);
+  background-image: url(./assets/images/bg-pattern.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  height: 700px;
+  display: flex;
+  box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
